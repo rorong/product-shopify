@@ -2,7 +2,7 @@
   "name": "open-ai-implementation",
   "private": true,
   "scripts": {
-    "build": "remix build",
+    "build": "remix build && prisma generate",
     "predev": "prisma generate && prisma migrate deploy",
     "dev": "shopify app dev",
     "config:link": "shopify app config link",
